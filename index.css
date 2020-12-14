@@ -7,3 +7,19 @@ ol, ul { list-style: none;}
 blockquote, q {	quotes: none;}
 blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
 table {	border-collapse: collapse;	border-spacing: 0;}
+
+
+/* - [ ] Color the background of items in the navigation bar and footer with the following colors: 
+  - [ ] Plan your Visit: `#FF764E`
+  - [ ] Learn About the Park: `#5ED3EB`
+  - [ ] Get Involved: `#FFCD69` 
+*/
+        nav a:first-child{
+        background-color: #FF764E;
+        }
+        nav a{
+            background-color: #5ED3EB;
+        }
+        nav a:last-child{
+            background-color: #FFCD69;
+        }
