@@ -4,22 +4,31 @@
 <head>
 <!-- Link your CSS stylesheet -->
   <link rel="stylesheet" href="./index.css">
-  <link href=' http://fonts.googleapis.com/css?family=Chelsea+Market,Roboto+Mono' rel='stylesheet' type='text/css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Chelsea+Market,Roboto+Mono' rel='stylesheet' type='text/css'> -->
+  <!-- oddly this seems to work but gives ->
+	Refused to apply style from 'https://fonts.googleapis.com/css?family=Chelsea+Market,Roboto+Mono' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+	error in inspector  -->
+	<link href='http://fonts.googleapis.com/css?family=Chelsea+Market' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+	<!-- Separating them cures the error -->
 
 </head>
 <body>
 <div class="wrapper">   <!-- add a structural div to wrap the hole page so that we can style things -->
-	 <header class="header">
+	 <header>
 		<nav>
 			<a href="#">Plan your Visit</a>
-			<a href="#">Learn about the Park</a>
+			<a href="#">Learn About the Park</a>
 			<a href="#">Get Involved</a>
 		</nav>
+		<section class="header-content">	
 			<img src="./assets/header_img.jpg" alt="Scenic landscape photo of a valley between mountains on a overcast day. ">
-		<section>
+		<div class="header-text">
 			<h1>Yosemite Park Guide</h1>
 			<p>Come explore California’s beautiful wilderness.</p>
-			<p>Always open. Reservations are not available or required to enter the park.</p>
+			<p>Always open. Reservations are not <br>available or required to enter the <br>park.</p>
+			<!-- There is obviously some magic spacing and sizing to get the breaks to be perfect, I don't feel like playing with the numbers ad nauseam is worth the time.  -->
+		<div>
 		</section>
 	</header>
 		<section class="main-content">
@@ -32,10 +41,13 @@
 			<p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for <span class=bold-text>current fire restrictions</span>.</p>
 			
 			<img src="https://image.flaticon.com/icons/svg/820/820374.svg" alt="Illustration of a generic recreational vehicle">
-			<p> strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span class=bold-text>park entrance fee </span> upon arrival (there's no need to pay it in advance).</p>
+			<p> We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span class=bold-text>park entrance fee </span> upon arrival (there's no need to pay it in advance).</p>
 		</section>
-		<footer>
+
+			<div class="footer-img">
 			<img src="./assets/footer_img.jpg" alt="Scenic landscape photo of evergreens and mountains with clouds in the distance.">
+			</div>
+		<footer>
 			<nav>
 				<a href="#">Plan your Visit</a>
 				<a href="#">Learn about the Park</a>

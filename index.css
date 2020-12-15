@@ -7,19 +7,117 @@ ol, ul { list-style: none;}
 blockquote, q {	quotes: none;}
 blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
 table {	border-collapse: collapse;	border-spacing: 0;}
+body{
+	font-family: "Roboto Mono";
+	font-size: 1rem;
+	line-height: 1rem;
+	text-align: center;
+}
+.wrapper{
+	/* Basing styles on the assumption that site has a overall max width and style image was cropped */
+	max-width: 900px;	
+	margin: 15px auto;
+}
+p{
+	padding: 1rem;
+}
+header{
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	
+}
+nav{
+	display: flex;
+	justify-content:space-evenly;
+	padding: 2rem;
+}
+nav a{
+	/*  */
+	padding: .5rem;
+	border-radius: .7rem;
+	text-decoration: none;
+	color: white;
+	width: 7rem;
+	background-color: #5ED3EB;
+}
+nav a:first-child{
+	background-color: #FF764E;
+}
+nav a:last-child{
+	background-color: #FFCD69;
+}
+.header-content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 3rem;
+}
+.header-content img{
+	width: 12rem;
+	border-radius: 100%;
+}
+.header-text{
+	width:70%;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	font-size: .9rem;
+}
+h1{
+	font-family: "Chelsea Market";
+	font-size: 2.5rem;
+	padding: 1rem;
+}
+.main-content{
+	background: #DDB9A3;
+	color: white;
+	margin: 0;	
+}
+.info-asides {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	font-size: .7em;
+}
+.info-asides p{
+	width: 35%;
+	padding: 0rem;
+}
+
+.info-asides img{
+	max-width: 150px;
+	padding-top: .5rem;
+}
+.footer-img{
+	max-width: 100%;
+	height: 200px;
+	overflow: hidden;
+	padding-top: 3rem;
+}
+.footer-img img{
+	width: 100%;
+}
+footer{
+	background: #F9E7DC;
+}
+/* Note: I choose to use of styling a span here. and not 'fix' the missing styles from <b> or <strong> due to the reset */
+.bold-text{
+	font-weight: bold;
+}
 
 
-/* - [ ] Color the background of items in the navigation bar and footer with the following colors: 
-  - [ ] Plan your Visit: `#FF764E`
-  - [ ] Learn About the Park: `#5ED3EB`
-  - [ ] Get Involved: `#FFCD69` 
-*/
-        nav a:first-child{
-        background-color: #FF764E;
-        }
-        nav a{
-            background-color: #5ED3EB;
-        }
-        nav a:last-child{
-            background-color: #FFCD69;
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
