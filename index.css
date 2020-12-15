@@ -176,3 +176,8 @@ ol li::before {
 .news-gal img{
 	padding-top: 2rem;
 }
+.get-involved{
+	text-align: left;
+	font-size: 2rem;
+	line-height: 2.4rem;
+}
