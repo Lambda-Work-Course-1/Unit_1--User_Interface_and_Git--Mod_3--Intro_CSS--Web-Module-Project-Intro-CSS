@@ -58,8 +58,8 @@ Once your repository is set up, practice what you learned today to style the sit
 The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
 
 - [x] Stretch #1 - Add CSS animations (hover, mouseover, etc.)
-- [ ] Stretch #2 -Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
-- [ ] Stretch #3 -Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
+- [x] Stretch #2 -Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
+- [x] Stretch #3 -Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
 - [ ] Stretch #4 -Host your website on Netlify.com
 
 ## Resources
