@@ -156,9 +156,23 @@ li{
 	counter-increment: my-awesome-counter;
 	
 }
-  ol li::before {
+ol li::before {
 	content: counter(my-awesome-counter) ". ";
 	color: red;
 	font-weight: bold;
 	font-size: 4rem;
-  }
+}
+.news-gal{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-evenly;
+	padding: 2rem;
+}
+.news-gal div{
+	border-bottom: 2px solid black;
+}
+.news-gal img{
+	padding-top: 2rem;
+}
