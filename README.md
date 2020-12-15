@@ -60,7 +60,7 @@ The following goals are designed to stretch your knowledge and may require addit
 - [x] Stretch #1 - Add CSS animations (hover, mouseover, etc.)
 - [x] Stretch #2 -Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
 - [x] Stretch #3 -Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
-- [ ] Stretch #4 -Host your website on Netlify.com
+- [x] Stretch #4 -Host your website on Netlify.com- can be found @ https://naughty-spence-bf7eb4.netlify.app/
 
 ## Resources
 
